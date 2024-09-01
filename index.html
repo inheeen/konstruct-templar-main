@@ -21,7 +21,7 @@
     <section class="second-section">
         <div class="second-section__nav-container">
             <header class="second-section__header">
-                <nav class="navbar navbar-expand-lg navbar-light ">
+                <nav class="navbar navbar-expand-lg navbar-light container">
                     <a class="navbar-brand" href="#"><img src="./src/icons/projeco-logo-black.png" alt="#" class="main-section__logo navbar__img"></a>
                     <button class="navbar-toggler" type="button navbar__button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -71,16 +71,16 @@
         </div>
     </section>
     <!-- третья секция -->
-    <section class="third-section">
+    <section class="third-section container">
         <div class="third-section__content-container content-container container">
             <div class="third-section__first-wrapper first-wrapper container">
-                <div class="first-wrapper__title-box title-box">
+                <div class="first-wrapper__title-box title-box container">
                     <h3 class="title-box__title">our capabilites</h3>
                     <div class="title-box__line"></div>
                 </div>
                 <div class="first-wrappr__btn-box btn-box">
                     <p class="btn-box__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque nihil mollitia soluta dolores, quasi animi debitis eum velit doloribus pariatur, eius deserunt molestias nesciunt voluptatem ipsum. Et hic rem nesciunt.</p>
-                    <button class="btn-box__btn">all services</button>
+                    <button class="btn-box__btn btn">all services</button>
                 </div>
             </div>
             <div class="third-section__second-wrapper second-wrapper container">
@@ -105,19 +105,56 @@
     <section class="fourth-section">
         <div class="fourth-section__content-container content-container container">
             <h4 class="fourth-section__title">Want to build <br>something amazing?</h4>
-            <button class="fourth-section__btn">get in touch</button>
+            <button class="fourth-section__btn btn">get in touch</button>
         </div>
     </section>
     <section class="five-section">
         <div class="five-section__content-container content-container container">
             <div class="five-section__title">Newsletter Signup</div>
-            <form action="handler.php">
-                <p class="five-section__email">E-mail: <input type="email" name="login"></p>
-               </form>
-               <button class="five-section__btn">Sing Up</button>
+            <div class="five-section__email-box">
+                <form action="handler.php">
+                    <p class="five-section__email">E-mail: <input class="five-section__input" type="email" name="login"></p>
+                </form>
+                   <button class="five-section__btn btn">Sing Up</button>
+            </div>
         </div>
-        <div class="d">dddd</div>
     </section>
+    <footer class="footer">
+        <div class="footer__content-container content-container container">
+            <div class="content-container__company company container">
+                <p class="company__title">company</p>
+                <img src="./src/icons/projeco-logo.png" alt="" class="company__logo">
+                <p class="company__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cupiditate magni sapiente, excepturi aliquam beatae minima iste hic maiores odit dicta, sunt recusandae dolorem voluptatibus optio ducimus repellendus, labore saepe.</p>
+            </div>
+            <div class="content-container__links links">
+                <p class="links__title">links</p>
+                <div class="links__link-box link-box">
+                    <p class="link-box__text"></p>
+                    <p class="link-box__text"></p>
+                    <p class="link-box__text"></p>
+                    <p class="link-box__text"></p>
+                    <p class="link-box__text"></p>
+                </div>
+                <div class="links__link-box link-box">
+                    <p class="link-box__text"></p>
+                    <p class="link-box__text"></p>
+                    <p class="link-box__text"></p>
+                </div>
+                <div class="links__link-box link-box">
+                    <p class="link-box__text"></p>
+                    <p class="link-box__text"></p>
+                    <p class="link-box__text"></p>
+                </div>
+            </div>
+            <div class="content-container__contacts contacts">
+                <p class="contacts__title"></p>
+                <p class="contacts__text"></p>
+                <p class="contacts__text"></p>
+                <p class="contacts__text"></p>
+            </div>
+            <div class="content-container__media media"></div>
+        </div>
+    </footer>
     <script src="./src/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
